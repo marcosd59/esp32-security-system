@@ -1,6 +1,5 @@
 import "./App.css";
 import ResponsiveAppBar from "./components/AppBar";
-import Card from "./components/Card";
 
 function App() {
   return (
