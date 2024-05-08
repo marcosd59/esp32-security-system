@@ -1,0 +1,9 @@
+h2 {
+  margin-top: 0;
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  background: #f5f5f5;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
