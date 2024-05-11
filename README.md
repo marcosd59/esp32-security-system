@@ -30,7 +30,7 @@ npm --version
 
 Asegúrate de establecer la variable de entorno `REACT_APP_GOOGLE_MAPS_API` con tu clave del API de Google Maps en un archivo `.env` en la raiz del proyecto.
 
-```bash
+```python
 REACT_APP_GOOGLE_MAPS_API="your-api-key-here"
 ```
 
