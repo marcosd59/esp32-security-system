@@ -40,7 +40,7 @@ REACT_APP_GOOGLE_MAPS_API="your-api-key-here"
 
 Para ejecutar el `index.py` neceitaras las sigueintes librerias instaladas en python.
 
-```pyhton
+```python
 from flask import Flask, Response
 import face_recognition
 import cv2
