@@ -38,6 +38,15 @@ Asegúrate de establecer la variable de entorno `REACT_APP_GOOGLE_MAPS_API` con 
 REACT_APP_GOOGLE_MAPS_API="your-api-key-here"
 ```
 
+Para ejecutar el `index.py` neceitaras las sigueintes librerias instaladas en python.
+
+```pyhton
+from flask import Flask, Response
+import face_recognition
+import cv2
+import pickle
+```
+
 ## Comenzando
 
 ### Instalación
