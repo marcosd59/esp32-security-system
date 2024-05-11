@@ -28,6 +28,12 @@ node --version
 npm --version
 ```
 
+Asegúrate de establecer la variable de entorno `REACT_APP_GOOGLE_MAPS_API` con tu clave del API de Google Maps en un archivo `.env` en la raiz del proyecto.
+
+```bash
+REACT_APP_GOOGLE_MAPS_API="your-api-key-here"
+```
+
 ## Comenzando
 
 ### Instalación
@@ -67,6 +73,7 @@ npm start
 - [Flask](http://flask.pocoo.org/)
 - [OpenCV](https://opencv.org/)
 - [face_recognition](https://github.com/ageitgey/face_recognition)
+- [Google Maps API](https://developers.google.com/maps)
 
 ## Contribuir
 
