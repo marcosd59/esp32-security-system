@@ -12,7 +12,7 @@ Este sistema de seguridad integrado utiliza ESP32 para monitorear y notificar ev
 
 ## Capturas de Pantalla
 
-![Ubicacion](./src/images/screenshots/Security-ESP32-Cam-Ubicacion%20.png)
+![Ubicacion](./src/images/screenshots/Security-ESP32-Cam-Ubicacion.png)
 
 ## Prerrequisitos
 
@@ -89,6 +89,6 @@ Las contribuciones son bienvenidas y ayudan a mejorar y expandir este proyecto. 
 
 © 2024 Marcos Damián Pool Canul.
 
-```
-
+```bash
+git clone https://github.com/marcosd59/esp32-security-system.git
 ```
