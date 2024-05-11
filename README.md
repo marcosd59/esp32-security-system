@@ -20,12 +20,16 @@ Antes de iniciar, asegúrate de tener instalado lo siguiente:
 
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
+- [Git](https://git-scm.com/)
+- [Python](https://www.python.org/)
 
 Puedes verificar las instalaciones con los siguientes comandos:
 
 ```bash
 node --version
 npm --version
+git --version
+python --version
 ```
 
 Asegúrate de establecer la variable de entorno `REACT_APP_GOOGLE_MAPS_API` con tu clave del API de Google Maps en un archivo `.env` en la raiz del proyecto.
