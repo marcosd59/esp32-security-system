@@ -1,0 +1,8 @@
+.map-container {
+  width: 60%;
+  height: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+}
