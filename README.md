@@ -77,7 +77,9 @@ npm install
 npm start
 ```
 
-5. Abre `http://localhost:3000` en tu navegador para ver la aplicación.
+5. Ejecuta el archivo `index.py` para inicar el servidor con la decodificaion de rostros.
+
+6. Abre `http://localhost:3000` en tu navegador para ver la aplicación.
 
 ## Herramientas Utilizadas
 
