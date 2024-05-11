@@ -21,7 +21,7 @@ const VideoStream = () => {
 
       <div className="video-container">
         <img
-          src="http://192.168.1.252/video"
+          src="http://localhost:5000/video"
           alt="Video Stream"
           className="video-stream"
         />
