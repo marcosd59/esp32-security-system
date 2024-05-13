@@ -12,6 +12,10 @@ Este sistema de seguridad integrado utiliza ESP32 para monitorear y notificar ev
 
 ## Capturas de Pantalla
 
+![Camara](./src/images/screenshots/Security-ESP32-Cam-Camara.png)
+
+---
+
 ![Ubicacion](./src/images/screenshots/Security-ESP32-Cam-Ubicacion.png)
 
 ## Prerrequisitos
@@ -88,7 +92,7 @@ npm start
 - [Flask](http://flask.pocoo.org/)
 - [OpenCV](https://opencv.org/)
 - [face_recognition](https://github.com/ageitgey/face_recognition)
-- [Google Maps API](https://developers.google.com/maps)
+- [Google Maps API](https://console.cloud.google.com/apis/library/maps-backend.googleapis.com?hl=es-419&project=dulcet-library-418317)
 
 ## Contribuir
 
