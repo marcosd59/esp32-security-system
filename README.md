@@ -16,7 +16,7 @@ Este sistema de seguridad integrado utiliza ESP32 para monitorear y notificar ev
 
 ---
 
-![Ubicacion](./src/images/screenshots/Security-ESP32-Cam-Ubicacion.png)
+![Ubicacion](./src/images/screenshots/Security-ESP32-Cam-Locacion.png)
 
 ## Prerrequisitos
 
