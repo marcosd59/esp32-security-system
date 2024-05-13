@@ -18,12 +18,12 @@ const MapContainer = () => {
           },
           (error) => {
             console.error("Error obtaining location", error);
-            setCoordinates({ lat: 40.73061, lng: -73.935242 });
+            setCoordinates({ lat: 21.200301, lng: -86.823546 });
           }
         );
       } else {
         console.log("Geolocation is not supported by this browser.");
-        setCoordinates({ lat: 40.73061, lng: -73.935242 });
+        setCoordinates({ lat: 21.200301, lng: -86.823546 });
       }
     };
 
