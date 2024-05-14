@@ -12,11 +12,17 @@ Este sistema de seguridad integrado utiliza ESP32 para monitorear y notificar ev
 
 ## Capturas de Pantalla
 
+### Cámara de seguridad
+
 ![Camara](./src/images/screenshots/Security-ESP32-Cam-Camara.png)
 
----
+### Ubicacion de la cámara
 
 ![Ubicacion](./src/images/screenshots/Security-ESP32-Cam-Locacion-Maps.png)
+
+### Notificacion de intruso
+
+![Notificacion](./src/images/screenshots/Security-ESP32-Cam-Notificaciones.png)
 
 ## Prerrequisitos
 
@@ -45,10 +51,11 @@ REACT_APP_GOOGLE_MAPS_API="your-api-key-here"
 Para ejecutar el `index.py` neceitaras las sigueintes librerias instaladas en python.
 
 ```python
-from flask import Flask, Response
-import face_recognition
+from flask import Flask, Response, jsonify
 import cv2
+import face_recognition
 import pickle
+from flask_cors import CORS
 ```
 
 ## Comenzando
