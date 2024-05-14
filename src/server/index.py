@@ -11,7 +11,7 @@ with open('D:\CARPETA_DE_EVIDENCIAS_SEMESTRE_8\esp32-security-system\src\server\
 
 def generate_frames():
 
-    video_url = "http://192.168.1.252/video"
+    video_url = "http://192.168.1.252:81/stream"
     video_capture = cv2.VideoCapture(video_url)
 
     while True:
