@@ -7,7 +7,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
 
-with open('D:\\CARPETA_DE_EVIDENCIAS_SEMESTRE_8\\esp32-security-system\\src\\server\\encodings.pickle', 'rb') as f:
+with open('..\\esp32-security-system\\src\\server\\encodings.pickle', 'rb') as f:
     known_data = pickle.load(f)
 
 unknown_detected = False
