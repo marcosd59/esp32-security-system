@@ -15,7 +15,7 @@ unknown_detected = False
 
 def generate_frames():
     global unknown_detected
-    video_url = "http://192.168.1.252:81/stream"
+    video_url = "http://192.168.75.42:81/stream"
     video_capture = cv2.VideoCapture(video_url)
 
     while True:
